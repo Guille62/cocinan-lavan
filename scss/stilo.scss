@@ -1,0 +1,122 @@
+#fp-nav ul li:hover a span, .fp-slidesNav ul li:hover a span,
+#fp-nav ul li:focus a span, .fp-slidesNav ul li:focus a span,
+#fp-nav ul li:active a span, .fp-slidesNav ul li:active a span {
+    width: 10px;
+    height: 10px;
+    /* margin: -5px 0px 0px -5px; */
+}
+
+
+
+
+.s1{    
+    .logosp{
+            max-width: 110%;
+    }
+}
+
+
+
+@media screen and (min-width:768px){
+
+
+    .s1{    
+        .logosp{
+                max-width: 100%;
+        }
+        .participa{
+            font-size: 22px;
+            line-height: 1.5em !important;
+        }
+        .frasehome{
+            max-width: 70%;
+        }
+
+    }
+
+}
+
+.block-redes{
+    width: 100%;
+    max-width: 198px;
+    margin: auto;
+    display: block;
+    a{
+        text-align: center;
+        margin: 5px;
+        img{
+            max-width: 17%;
+        }
+    }
+}
+
+
+@media screen and (min-width:998px){
+
+
+    .cabecera{
+        position: fixed;
+        width: 100%;
+        z-index: 9;
+        padding: 17px;
+        .navbar-nav li a{
+            line-height: inherit !important;
+            font-size: 15px !important;
+        }
+    }
+    .s1{   
+        .participa{
+            font-size: 15px;
+            margin: 60px 0;
+            padding: 0 200px;
+            line-height: 2.2em !important;
+            span{
+                line-height: inherit;
+            }
+        } 
+        .block-redes{
+            max-width: 260px;
+            padding: 35px 0px;
+            position: absolute;
+            right:0px;
+            margin-right: 25px;
+            margin-bottom: 25px;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+
+    .seccionFooterComercial{
+        width:100% !important;
+        max-width: inherit !important;
+        right: inherit !important;
+        bottom: 45px;
+        .footer-comercial{
+            position: relative;
+            height: 91px;
+            width: 100%;
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+        img{
+           position: absolute;
+           right: 0px;
+           bottom: 25px;
+           margin-right: inherit;
+        }
+    }
+
+}
+
+
+@media screen and (min-width:1200px){
+    .cabecera{
+        .navbar-nav li a{
+            line-height: 35px !important;
+            font-size: 20px !important;
+        }
+    }
+
+
+}

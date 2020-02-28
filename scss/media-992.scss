@@ -1,0 +1,55 @@
+@media screen and (min-width:992px){
+    .tituloRecetas span {
+	    font-size: 3.4em;
+	    font-weight: bold;
+	}
+
+	#manoIzq{
+		display: none;
+	}
+
+	#manoDer{
+		display: none;
+	}
+
+	.boton {
+	    padding: 15px 45px;
+	}
+
+	.galeria span {
+    	font-size: 5em;
+	}
+
+	.nombreVentaja span {
+    	font-size: 10em;
+	}
+
+	#nombreAplausos {
+	    font-size: 8em;
+	}
+
+	.divComercial video {
+	    margin: 0 auto;
+	    width: 100%;
+	}
+
+	#comercialFondo{
+		width: 1920px;
+	    position: absolute;
+	    top: 0;
+	    left: 50%;
+	    transform: translate(-50%);
+	}
+
+	.recetaLargo{
+		font-size: 1.5em !important;
+	}
+
+	.contenedorRecetas {
+	    margin: 25px 11%;
+	}
+
+	.fotoReceta{
+		height: 100vh;
+	}
+}

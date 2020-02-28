@@ -1,0 +1,266 @@
+@media screen and (min-width:465px){
+    .boton{
+		padding: 10px 50px;
+	}
+
+	.navbar-nav{
+		float: right;
+		text-align: right;
+		background: rgba(0,0,0,0.5);
+		width: 141px;
+	}
+
+	.navbar-header{
+		width: 100%;
+    	text-align: right;
+	}
+
+	.navbar-nav > li {
+		display: block;
+	}
+
+	.navbar-nav li a {
+	    line-height: 35px;
+	    color: #FFF;
+	    font-size: 1em;
+    	font-weight: bold;
+	    padding: 0 15px;
+	    text-align: end;
+	}
+
+	.navbar-container{
+	    position: absolute;
+	    top: 0;
+	    right: 0%;
+	    padding: 0;
+	    z-index: 5;
+	}
+
+	#fp-nav.fp-left {
+	    left: 17px;
+	}
+
+	.underline{
+		display: none;
+	}
+
+	.containerHeader {
+	    max-width: 100px;
+	    margin: 0 auto;
+	    position: absolute;
+	    top: 10%;
+	    left: 50%;
+	    -webkit-transform: translateX(-50%);
+	    transform: translateX(-50%);
+	    z-index: 10;
+	}
+
+	.tituloPrincipal {
+        text-align: center;
+	    margin: 100px 0px 10px 0px;
+	    padding: 0 30px;
+	}
+
+	.descripcion{
+	    padding: 0 60px;
+        margin: 0px 0px 10px 0px;
+	    font-size: 0.8em;
+	    line-height: 1.3;
+	}
+
+	.participa {
+     	margin-top: 40px;
+    	margin-bottom: 20px;
+    	padding: 0px 50px;
+	}
+
+	.participa span {
+	    font-size: 1em;
+	    line-height: 1.25;
+	    display: contents;
+	}
+
+	.bajada {
+	    text-align: center;
+	    margin-bottom: 100px;
+	}
+
+	.seccionFooter {
+		position: inherit;
+	    width: 100%;
+	    bottom: 10px;
+	    right: -25%;
+	    margin-bottom: 0px;
+	}
+
+	.redesSociales {
+        right: 0%;
+    	text-align: center;
+    	width: 100%;
+    	z-index: 1;
+	}
+
+	.redesSociales a img {
+	    width: 45px;
+	}
+
+	.manosPortada{
+		display: none;
+	}
+
+	.descubreTexto {
+	    padding: 0 25px;
+	}
+
+	.descubreTexto span {
+	    font-size: 1.9em;
+	}
+
+	.boton {
+	    font-size: 1em;
+	}
+
+	.pregunta {
+	    font-size: 2em;
+	    font-weight: bold;
+	}
+
+	.numeroPregunta{
+	    margin-bottom: 35px;
+	}
+
+	.respuestas{
+	    width: 80%;
+	}
+
+	.mensajeTest1{
+	    font-size: 1.2em;
+	}
+
+	.mensajeTest2 {
+	    font-size: 3em;
+	}
+
+	.mensajeTest3 {
+	    font-size: 1.2em;
+	    margin: 30px 0;
+	}
+
+	#btnGoRecetas{
+		margin-top: 10px;
+    	margin-left: 0px;
+	}
+
+	.resultadoTest hr {
+	    padding: 0;
+	}
+
+	.bajadaResultado {
+	    margin-top: 0px;
+	}
+
+	.tituloSlide{
+	    font-size: 2em;
+	    top: 10px;
+	}
+
+	#placeholderComercial {
+	    position: inherit;
+	}
+
+	#comercialFinal{
+		position: inherit;
+	}
+
+	.galeria span {
+    	font-size: 3em;
+	}
+
+	.ventajas {
+	    height: 85%;
+        width: 85%;
+    	margin: 25px auto;
+	}
+
+	.tituloCabecera span {
+	    font-size: 2em;
+	}
+
+	.bajada {
+	    margin-bottom: 20px;
+	    display: block;
+	    padding: 10px 0;
+	}
+
+	.contenidoVentajas span {
+        display: block;
+	    margin-top: 0px;
+	    font-size: 1em;
+	    text-align: justify;
+	    margin-left: 0px;
+	}
+
+	.imagen-ventaja {
+	    text-align: center;
+	    margin: 25px 0px;
+	}
+
+	.imagen-ventaja img {
+	    max-height: 250px;
+	}
+
+	.nombreVentaja span {
+	    display: block;
+	    position: inherit;
+	    margin-left: 0;
+	    margin-right: 0 !important;
+	    font-size: 2.5em !important;
+	    margin-top: 0;
+	}
+
+	.tituloRecetas span {
+	    display: block;
+	    font-size: 1.5em;
+	    font-weight: bold;
+	}
+
+	.tituloRecetas hr{
+	    padding: 0px;
+	}
+
+	.productosRecetas {
+	    margin: 0px;
+	}
+
+	.productosRecetas span {
+	    display: block;
+	    font-size: 1.5em;
+	    font-weight: bold;
+    	text-align: center;
+	}
+
+	.productosRecetas img {
+	    padding: 10px 0px;
+        max-height: 150px;
+	}
+
+	.recetaContenedor img{
+		display: block;
+	    max-height: 200px;
+	    margin: 0 auto;
+	}
+
+	.btnAprender {
+	    padding: 10px 0px;
+	    text-align: center;
+	    left: 50%;
+	    -webkit-transform: translateX(-50%);
+	    transform: translateX(-50%);
+	    width: 150px;
+	    font-size: 0.8em;
+	}
+
+	.fotoReceta {
+	    height: auto;
+	}
+}

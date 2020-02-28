@@ -1,0 +1,1019 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+}
+
+.containerHeader{
+    text-align: center;
+    max-width: 130px;
+    margin: 30px auto;    
+    position: relative;
+}
+
+.tituloPrincipal{
+    text-align: center;    
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tituloPrincipal span {
+   	display: block;
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 0.7;
+}
+
+#manoIzq{
+    position: absolute;
+    left: 0;
+    width: 700px;
+    margin-top: 10px;
+}
+
+#manoDer{
+	margin-top: 150px;
+    right: 0;
+    position: absolute;
+    width: 650px;
+}
+
+.descripcion {
+    text-align: center;
+    margin: 55px 190px 40px 190px;
+    font-size: 1.1em;
+    line-height: 1.3;
+}
+
+.participa{
+    text-align: center;
+    margin: 50px 0 30px 0;
+    padding: 0 160px;
+}
+
+.participa span {
+    font-size: 1.9em;
+    font-weight: bold;
+    line-height: 1;
+    display: block;
+}
+
+.bajada{
+	text-align: center;
+}
+
+.seccionFooter{
+    position: absolute;
+    margin-bottom: 10px;
+    right: 0%;
+    width: 60%;
+    bottom: 5%;
+    text-align: right;
+    letter-spacing: 15px;
+}
+
+.seccionFooterComercial{
+	position: absolute;
+    width: 100%;
+    bottom: 10px;
+    right: 10px;
+    max-width: 100px;
+    margin-bottom: 0px;
+}
+
+.redesSociales{
+	right: 10%;
+}
+
+.manosPortada{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    display: flow-root;    
+    top: 90px;
+}
+
+.boton{
+    display: inline-block;
+	border: solid;
+    border-width: 2px;
+    border-radius: 30px;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 15px 75px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.boton:disabled{
+	border-color: grey;
+	color: grey;
+}
+
+.boton:disabled:hover {
+    border-color: grey;
+    color: grey;
+    background: transparent;
+}
+
+.btnAmarillo{
+	background-color: #f8cc00;
+}
+
+.btnAmarillo:hover{
+    background: #f8cc00;
+    color: #FFF;
+    text-shadow: -1px 0 #01155d, 0 1px #01155d, 1px 0 #01155d, 0 -1px #01155d;
+    border-color: #f8cc00;
+    text-decoration: none;
+}
+
+.btnBordeAmarillo{
+	border-color: #f8cc00;
+}
+
+.btnBordeAmarillo:hover{
+	background: #f8cc00;
+    color: #FFF;
+    border-color: #f8cc00;
+    text-decoration: none;
+}
+
+.btnAmarillo:hover {
+    background: #f8cc00;
+    color: #FFF;
+    border-color: #f8cc00;
+    text-decoration: none;
+}
+
+#btnGoRecetas{
+	background: transparent;
+	color: #FFF;
+	border-color: #FFF;
+	border-width: 2px;
+    margin-left: 80px;
+}
+
+.tituloSlide{
+    position: absolute;
+    font-size: 3em;
+    font-weight: bold;
+    color: #FFF;
+    left: 15%;
+    top: 10%;
+    z-index: 10;
+}
+
+
+/** FONDOS PAGINAS **/
+.s1{
+	/*background: url('../img/portadaBG.jpg');
+	background-size: cover;
+	background-position: center;*/
+}
+
+#comercialFondo{
+	width: 100%;
+}
+
+.videoFondo {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+._puntosTransparencia {
+    background-image: url(../img/punto.png);
+    background-repeat: repeat;
+    opacity: 0.8;
+    background-size: 5px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.s2{
+	background: url('../img/testBG.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.s3{
+	background: #000;
+}
+
+.s4{
+	background: #000;
+}
+
+.s5{
+	background: url('../img/ventajasBG.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.s6{
+	background: url('../img/cambiarseBG.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.descubreTexto {
+    text-align: center;
+}
+
+.descubreTexto span {
+    display: block;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.preguntasTest{
+	text-align: center;
+}
+
+.cabeceraPreguntas{
+	margin-bottom: 50px;
+}
+
+.cabeceraPreguntas hr{	
+    border-color: #FFF;
+    padding: 10px;
+    width: 80%;
+}
+
+.bodyPreguntas input {
+    border-radius: 25px;
+    padding: 10px 25px;
+    text-align: center;
+    margin: 0px 45px 45px 45px;
+    width: 400px;
+}
+
+#btnTest5{
+	display: block;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+
+.numeroPregunta span{
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-size: 4.5em;
+    font-weight: bold;
+}
+
+.numeroPregunta{
+    margin-bottom: 50px;
+}
+
+.numeroPregunta img{
+	    display: block;
+    margin: 0 auto;
+}
+
+.numeroPregunta h2{
+    font-size: 7em;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.circulosNumero{
+	
+}
+
+.pregunta {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.bodyPreguntas span {
+    display: block;
+}
+
+.respuestas {
+	border-color: #FFF;
+    border: solid;
+    border-width: 1px;
+    padding: 10px;
+    border-radius: 25px;
+    width: 850px;
+    margin: 10px auto;
+}
+
+.respuestas:hover {
+    background: #0769ad;
+}
+
+.respActiva {
+    background: #0769ad;
+}
+
+.btnTest {
+    margin-top: 75px;
+}
+
+.resultadoTest span {
+    display: block;
+}
+
+.resultadoTest hr{
+    border-color: #FFF;
+    padding: 10px;
+    width: 80%;
+}
+
+.bajadaResultado {
+    margin-top: 35px;
+}
+
+.mensajeTest1{
+	font-weight: bold;
+    font-size: 2.5em;
+}
+
+.mensajeTest2{
+    font-weight: bold;
+    font-size: 5em;
+}
+
+.mensajeTest3{
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-bottom: 35px;
+    margin-top: 100px;
+}
+
+.tituloSlide{
+    position: absolute;
+    font-size: 3em;
+    font-weight: bold;
+    color: #FFF;
+    left: 10%;
+    top: 10%;
+    z-index: 10;
+}
+
+.contenedorGaleria {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.galeria {
+	display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.descripcion-ventaja .contenedor-texto{
+	max-width: 300px;
+	width: 100%;
+}
+
+.galeria span {
+	font-size: 8em;
+	font-weight: bold;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.divComercial{
+    width: 100%;
+    text-align: center;
+}
+
+.divComercial video{
+	margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#placeholderComercial {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.imagen-ventaja{
+
+}
+
+.ventajas{
+	height: 70%;
+}
+
+.tituloCabecera span {
+    font-size: 4em;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.nombreVentaja {
+    text-align: center;
+}
+
+.nombreVentaja span{
+	position: absolute;
+    right: 0;
+    z-index: 10;
+    font-size: 11em;
+    font-weight: bold;
+    margin-top: 75px;
+}
+
+#nombreRisas{
+	margin-right: -250px;
+}
+
+#nombreAplausos{
+	margin-right: -400px;
+    font-size: 10em;
+}
+
+#nombreGloria{
+    margin-right: -320px;
+}
+
+#nombreFacil{
+	margin-right: -400px;
+}
+
+#nombrePracticos {
+    margin-right: -450px;
+    font-size: 9em;
+}
+
+.contenidoVentajas span {
+    display: block;
+    margin-top: 300px;
+    margin-left: 25px;
+    font-size: 1.5em;
+}
+
+.contenedorRecetas{
+	margin: 0 11%;
+}
+
+.tituloRecetas hr{	
+    border-color: #01155d;
+    padding: 10px;
+    width: 85%;
+    border-width: 4px;
+    margin-left: 0px;
+}
+
+.tituloRecetas span {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.recetaContenedor{
+	position: relative;
+}
+
+.productosRecetas{
+	margin: 0 30px;
+}
+
+.productosRecetas span{
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.productosRecetas img{
+    display: block;
+    max-height: 350px;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+.btnAprender{
+    position: absolute;
+    font-weight: bold;
+    z-index: 11;
+    bottom: 2%;
+    right: 4%;
+    padding: 15px 50px;
+}
+
+/** GALERIA FONDOS**/
+.alegria1{
+	background: url('../img/fel1.jpg');
+	background-position: center;
+    background-size: cover;
+}
+
+.tristeza1{
+	background: url('../img/trist1.jpg');
+	background-position: center;
+    background-size: cover;
+}
+
+.alegria2{
+	background: url('../img/fel2.jpg');
+	background-position: center;
+    background-size: cover;
+}
+
+.tristeza2{
+	background: url('../img/trist2.jpg');
+	background-position: center;
+    background-size: cover;
+}
+
+.alegria3{
+	background: url('../img/fel3.jpg');
+	background-position: center;
+    background-size: cover;
+}
+
+.tristeza3{
+	background: url('../img/trist3.jpg');
+	background-position: center;
+    background-size: cover;
+}
+
+/** NAVBAR **/
+
+.navbar-container{
+    width: 100%;
+    margin: 0 auto;
+    z-index: 11;
+}
+
+.navbar-nav {
+	float: none;
+	margin: 0;
+	text-align: center;
+	display: block;
+}
+
+.navbar-nav > li {
+	display: inline-block;
+	float: none;
+}
+
+.navbar-nav li a {
+	line-height: 35px;
+	color: #FFF;
+	font-size: 20px;
+	padding: 0 15px;
+	text-transform: uppercase;
+}
+
+.nav li a:hover {
+	background: none !important;
+	text-decoration: none;
+}
+
+.nav li a:focus, .nav li a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+}
+
+.fp-bottom ul{
+	    text-align: center;
+}
+
+#fp-nav.fp-left {
+    left: 5%;
+}
+/** LINEA BAJO NAV **/
+.navbar-container ul li .underline {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+	transition: width 0.2s, background-color 0.5s;
+	margin: 0 auto;
+}
+
+.navbar-container ul li.active-link .underline {
+	width: 65%;
+	background-color: #fce200;
+}
+
+.navbar-container ul li:hover .underline {
+	background-color: #f8cc00;
+	width: 65%;
+}
+
+.navbar-container ul li:hover a {
+}
+
+.navbar-container ul li:active a {
+	transition: none;
+	color: rgba(255,255,255,0.76);
+}
+
+.navbar-container ul li:active .underline {
+	transition: none;
+	background-color: #f8cc00;
+}
+
+#fp-nav.fp-left ul a.active span {
+    background-color: transparent !important;
+}
+
+.s6 .fp-slidesNav ul li a span{
+	background: #0a2e6d;
+    border-color: #0a2e6d;
+}
+
+.s6 .fp-slidesNav ul li a.active span{
+	background: #fce200;
+	border-color: #fce200;
+}
+
+/** COLORES TEXTO **/
+.textoBlanco{
+	color: #FFF;
+}
+
+.textoAzul{
+	color: #01155d;
+}
+
+.textoAmarilloOscuro{
+	color: #f8cc00;
+}
+
+.textoAmarillo{
+	color: #fce200;
+}
+
+.puntosAzules{
+    background: #0a2e6d !important;
+    border-color: #0a2e6d !important;
+}
+
+@media screen and (max-width: 1650px) {
+	.manosPortada {
+	    z-index: 0;
+	}
+
+}
+
+@media screen and (max-width: 1224px) {
+	.tituloRecetas span {
+	    font-size: 3.4em;
+	    font-weight: bold;
+	}
+
+	#manoIzq{
+		display: none;
+	}
+
+	#manoDer{
+		display: none;
+	}
+
+	.boton {
+	    padding: 15px 45px;
+	}
+
+	.galeria span {
+    	font-size: 5em;
+	}
+
+	.nombreVentaja span {
+    	font-size: 10em;
+	}
+
+	#nombreAplausos {
+	    font-size: 8em;
+	}
+
+	.divComercial video {
+	    margin: 0 auto;
+	    width: 100%;
+	}
+
+	#comercialFondo{
+		width: 1920px;
+	    position: absolute;
+	    top: 0;
+	    left: 50%;
+	    transform: translate(-50%);
+	}
+
+	.recetaLargo{
+		font-size: 1.5em !important;
+	}
+
+	.contenedorRecetas {
+	    margin: 25px 11%;
+	}
+
+	.fotoReceta{
+		height: 100vh;
+	}
+}
+
+@media screen and (max-width: 992px) {
+
+	.boton{
+		padding: 10px 50px;
+	}
+
+	.navbar-nav{
+		float: right;
+		text-align: right;
+		background: rgb(0,0,0,0.5);
+		width: 141px;
+	}
+
+	.navbar-header{
+		width: 100%;
+    	text-align: right;
+	}
+
+	.navbar-nav > li {
+		display: block;
+	}
+
+	.navbar-nav li a {
+	    line-height: 35px;
+	    color: #FFF;
+	    font-size: 1em;
+    	font-weight: bold;
+	    padding: 0 15px;
+	    text-align: end;
+	}
+
+	.navbar-container{
+	    position: absolute;
+	    top: 0;
+	    right: 0%;
+	    padding: 0;
+	    z-index: 5;
+	}
+
+	#fp-nav.fp-left {
+	    left: 17px;
+	}
+
+	.underline{
+		display: none;
+	}
+
+	.containerHeader {
+	    max-width: 100px;
+	    margin: 0 auto;
+	    position: absolute;
+	    top: 10%;
+	    left: 50%;
+	    -webkit-transform: translateX(-50%);
+	    transform: translateX(-50%);
+	    z-index: 10;
+	}
+
+	.tituloPrincipal {
+        text-align: center;
+	    margin: 100px 0px 10px 0px;
+	    padding: 0 30px;
+	}
+
+	.descripcion{
+	    padding: 0 60px;
+        margin: 0px 0px 10px 0px;
+	    font-size: 0.8em;
+	    line-height: 1.3;
+	}
+
+	.participa {
+     	margin-top: 40px;
+    	margin-bottom: 20px;
+    	padding: 0px 50px;
+	}
+
+	.participa span {
+	    font-size: 1em;
+	    line-height: 1.25;
+	    display: contents;
+	}
+
+	.bajada {
+	    text-align: center;
+	    margin-bottom: 100px;
+	}
+
+	.seccionFooter {
+		position: inherit;
+	    width: 100%;
+	    bottom: 10px;
+	    right: -25%;
+	    margin-bottom: 0px;
+	}
+
+	.redesSociales {
+        right: 0%;
+    	text-align: center;
+    	width: 100%;
+    	z-index: 1;
+	}
+
+	.redesSociales a img {
+	    width: 45px;
+	}
+
+	.manosPortada{
+		display: none;
+	}
+
+	.descubreTexto {
+	    padding: 0 25px;
+	}
+
+	.descubreTexto span {
+	    font-size: 1.9em;
+	}
+
+	.boton {
+	    font-size: 1em;
+	}
+
+	.pregunta {
+	    font-size: 2em;
+	    font-weight: bold;
+	}
+
+	.numeroPregunta{
+	    margin-bottom: 35px;
+	}
+
+	.respuestas{
+	    width: 80%;
+	}
+
+	.mensajeTest1{
+	    font-size: 1.2em;
+	}
+
+	.mensajeTest2 {
+	    font-size: 3em;
+	}
+
+	.mensajeTest3 {
+	    font-size: 1.2em;
+	    margin: 30px 0;
+	}
+
+	#btnGoRecetas{
+		margin-top: 10px;
+    	margin-left: 0px;
+	}
+
+	.resultadoTest hr {
+	    padding: 0;
+	}
+
+	.bajadaResultado {
+	    margin-top: 0px;
+	}
+
+	.tituloSlide{
+	    font-size: 2em;
+	    top: 10px;
+	}
+
+	#placeholderComercial {
+	    position: inherit;
+	}
+
+	#comercialFinal{
+		position: inherit;
+	}
+
+	.galeria span {
+    	font-size: 3em;
+	}
+
+	.ventajas {
+	    height: 85%;
+        width: 85%;
+    	margin: 25px auto;
+	}
+
+	.tituloCabecera span {
+	    font-size: 2em;
+	}
+
+	.bajada {
+	    margin-bottom: 20px;
+	    display: block;
+	    padding: 10px 0;
+	}
+
+	.contenidoVentajas span {
+        display: block;
+	    margin-top: 0px;
+	    font-size: 1em;
+	    text-align: justify;
+	    margin-left: 0px;
+	}
+
+	.imagen-ventaja {
+	    text-align: center;
+	    margin: 25px 0px;
+	}
+
+	.imagen-ventaja img {
+	    max-height: 250px;
+	}
+
+	.nombreVentaja span {
+	    display: block;
+	    position: inherit;
+	    margin-left: 0;
+	    margin-right: 0 !important;
+	    font-size: 2.5em !important;
+	    margin-top: 0;
+	}
+
+	.tituloRecetas span {
+	    display: block;
+	    font-size: 1.5em;
+	    font-weight: bold;
+	}
+
+	.tituloRecetas hr{
+	    padding: 0px;
+	}
+
+	.productosRecetas {
+	    margin: 0px;
+	}
+
+	.productosRecetas span {
+	    display: block;
+	    font-size: 1.5em;
+	    font-weight: bold;
+    	text-align: center;
+	}
+
+	.productosRecetas img {
+	    padding: 10px 0px;
+        max-height: 150px;
+	}
+
+	.recetaContenedor img{
+		display: block;
+	    max-height: 200px;
+	    margin: 0 auto;
+	}
+
+	.btnAprender {
+	    padding: 10px 0px;
+	    text-align: center;
+	    left: 50%;
+	    -webkit-transform: translateX(-50%);
+	    transform: translateX(-50%);
+	    width: 150px;
+	    font-size: 0.8em;
+	}
+
+	.fotoReceta {
+	    height: auto;
+	}
+}
+
+@media screen and (max-width: 465px) {
+
+	.mensajeTest2 {
+	    font-size: 2em;
+	}
+
+	.descubreTexto span {
+	    font-size: 1.25em;
+	}
+
+	.tituloCabecera span {
+	    font-size: 1.5em;
+	}
+
+	.recetaLargo{
+		font-size: 1em !important;
+	}
+
+	#pregunta5 .cabeceraPreguntas {
+	    margin-bottom: 0px;
+	}
+
+	.bodyPreguntas input {
+	    border-radius: 25px;
+	    padding: 5px 25px;
+	    text-align: center;
+	    margin: 0 auto;
+    	margin-bottom: 5px;
+	    width: 75%;
+	}
+
+	.imagen-ventaja img {
+	    max-height: 200px;
+	}
+}
+

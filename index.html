@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  	<!-- FACEBOOK SHARE -->
+	  	<meta property="og:url"         content="https://www.superpollo.cl/cocinan-vs-lavan/"/>
+		<meta property="og:type"        content="webpage" />
+		<meta property="og:title"       content="Concurso Cocinan vs Lavan" />
+		<meta property="og:description" content="¡Participa por 1 de los 10 Hornos Eléctricos + Pack Super Pollo!"/>
+		<meta property="og:image"       content="https://www.superpollo.cl/cocinan-vs-lavan/img/Imagen-compartir-Test-SP.jpg" />
+		<!-- FACEBOOK SHARE -->
+	    <title>Super Pollo - Los Que Cocinan Versus Los Que Lavan</title>
+	    <link rel="stylesheet" href="css/bootstrap.min.css">
+	    <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+		<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+		<link rel="stylesheet" type="text/css" href="css/stilo.css" />
+	    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800&display=swap" rel="stylesheet">
+	    <link rel="icon" href="data:;base64,=">
+	</head>
+
+	<body>
+
+	<!---- MENU  FIJO -->
+		<div class="cabecera">
+			<div class="container">
+				<nav class="navbar navbar-container navbar-expand-lg">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<img src="img/menu.png">
+							</button>
+						</div>
+						<div class="collapse navbar-collapse" id="myNavbar">
+							<ul class="nav navbar-nav mx-auto">
+								<li><a href="#Test"><span>TEST</span></a><div class="underline"></div></li>
+								<li><a href="#Comercial" id="linkComercial"><span>COMERCIAL</span></a><div class="underline"></div></li>
+								<li><a href="#Galería"><span>GALERÍA</span></a><div class="underline"></div></li>
+								<li><a href="#Ventajas"><span>VENTAJAS</span></a><div class="underline"></div></li>
+								<li><a href="#Cambiarse"><span>CAMBIARSE</span></a><div class="underline"></div></li>
+							</ul>
+						</div>
+					</div>
+				</nav>	
+			</div>
+		</div>	
+	<!-- MENU  FIIJO -->
+
+
+		<div id="fullPage">
+			<div class="section s1">
+				<div class="videoFondo">
+					<video id="comercialFondo" style="z-index:-1;" muted autoplay loop >
+						<source src="SuperPolloLimpio.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="_puntosTransparencia">
+				</div>
+				<div class="container">						
+					<div class="containerHeader">
+						<img src="img/logo_SP.png" class="img-fluid  logosp" alt="logo super pollo">
+					</div>
+					<div class="row">
+						<div class="container">							
+							<div class="tituloPrincipal col-12">
+								<img src="img/cocinanVsLavan.png" class="img-fluid frasehome" alt="" style="opacity: 0.85;">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="participa col-12">
+							<span class="textoBlanco">¡Responde nuestro cuestionario y estarás participando en el sorteo de uno de los</span>
+							<span class="textoAmarillo"> 10 Hornos Eléctricos + Pack Super Pollo!</span>	
+						</div>					
+						<div class="bajada col-12">
+							<a class="boton btnBordeAmarillo textoAmarillo" id="btnComenzar" href="#Test">PARTICIPA AQUÍ</a>
+						</div>
+					</div>				
+				</div>
+				<!--<div class="seccionFooter redesSociales col-12">-->
+				<div class="col-12 ">	
+					<div class="block-redes">
+						<a target="_blank" href="https://twitter.com/SuperPolloChile/"><img src="img/btn_twitter.png" class="img-fluid" alt=""></a>
+						<a target="_blank" href="https://www.facebook.com/superpollo?_rdr"><img src="img/btn_facebook.png" class="img-fluid" alt=""></a>
+						<a target="_blank" href="https://www.instagram.com/superpollochile/"><img src="img/btn_instagram.png" class="img-fluid" alt=""></a>
+						<a target="_blank" href="https://www.youtube.com/user/SuperPolloChile"><img src="img/btn_youtube.png" class="img-fluid" alt=""></a>
+					</div>	
+				</div>	
+			</div>
+			<div class="section s2">
+				<div class="container introEncuesta">
+					<div class="descubreTexto">
+						<span class="textoBlanco">DESCUBRE SI NACISTE </span>
+						<span class="textoBlanco">PARA SER COCINERO</span>
+						<span class="textoBlanco">O LAVADOR</span>
+						<a id="btnComenzarTest" class="boton btnBordeAmarillo textoAmarillo" href="#Test" style="margin-top: 25px;">HACER TEST</a>
+					</div>
+				</div>
+				<div class="container preguntasTest" style="display: none;">						
+					<div id="pregunta1">
+						<div class="cabeceraPreguntas">
+							<div class="numeroPregunta">
+								<span class="textoAzul">1</span>
+								<img src="img/circulosPreguntas.png" class="img-fluid">
+							</div>
+							<span class="pregunta textoBlanco">¿QUÉ TIPO DE AROMA PREFIERES?</span>
+						</div>
+						<div class="bodyPreguntas">
+							<span class="respuestas textoBlanco" pregunta="1" respuesta="LAVA">LAVALOZAS TIPO LIMÓN</span>
+							<span class="respuestas textoBlanco" pregunta="1" respuesta="COCINA">POLLO CON VERDURAS</span>
+							<span class="respuestas textoBlanco" pregunta="1" respuesta="LAVA">PAÑO HÚMEDO</span>
+							<button type=button id="btnTest1" class="boton btnBordeAmarillo textoAmarillo btnTest" pregunta="1" disabled>SIGUIENTE</button>
+						</div>
+					</div>
+					<div id="pregunta2" style="display: none;">		
+						<div class="cabeceraPreguntas">
+							<div class="numeroPregunta">
+								<span class="textoAzul">2</span>
+								<img src="img/circulosPreguntas.png" class="img-fluid">
+							</div>
+							<span class="pregunta textoBlanco">¿CUÁNTAS VECES COCINAS A LA SEMANA?</span>
+						</div>
+						<div class="bodyPreguntas">
+							<span class="respuestas textoBlanco" pregunta="2" respuesta="COCINA">TODOS LOS DÍAS, SOY TODO UN COCINERO</span>
+							<span class="respuestas textoBlanco" pregunta="2" respuesta="LAVA">AVECES, CUANDO ME DA LATA ESPERAR EL DELIVERY</span>
+							<span class="respuestas textoBlanco" pregunta="2" respuesta="LAVA">NUNCA</span>
+							<button type=button id="btnTest2" class="boton btnBordeAmarillo textoAmarillo btnTest" pregunta="2" disabled>SIGUIENTE</button>
+						</div>
+					</div>
+					<div id="pregunta3" style="display: none;">
+						<div class="cabeceraPreguntas">
+							<div class="numeroPregunta">
+								<span class="textoAzul">3</span>
+								<img src="img/circulosPreguntas.png" class="img-fluid">
+							</div>
+							<span class="pregunta textoBlanco">DEFINE TU NIVEL DE COCINA EN UNA PALABRA</span>
+						</div>
+						<div class="bodyPreguntas">
+							<span class="respuestas textoBlanco" pregunta="3" respuesta="COCINA">EXPERTO</span>
+							<span class="respuestas textoBlanco" pregunta="3" respuesta="LAVA">MEDIO</span>
+							<span class="respuestas textoBlanco" pregunta="3" respuesta="LAVA">APRENDIZ</span>
+							<button type=button id="btnTest3" class="boton btnBordeAmarillo textoAmarillo btnTest" pregunta="3" disabled>SIGUIENTE</button>
+						</div>
+					</div>
+					<div id="pregunta4" style="display: none;">
+						<div class="cabeceraPreguntas">
+							<div class="numeroPregunta">
+								<span class="textoAzul">4</span>
+								<img src="img/circulosPreguntas.png" class="img-fluid">
+							</div>
+							<span class="pregunta textoBlanco">DEFINE TU NIVEL DE LAVADO EN UNA PALABRA</span>
+						</div>
+						<div class="bodyPreguntas">
+							<span class="respuestas textoBlanco" pregunta="4" respuesta="LAVA">EXPERTO</span>
+							<span class="respuestas textoBlanco" pregunta="4" respuesta="LAVA">MEDIO</span>
+							<span class="respuestas textoBlanco" pregunta="4" respuesta="COCINA">APRENDIZ</span>
+							<button type=button id="btnTest4" class="boton btnBordeAmarillo textoAmarillo btnTest" pregunta="4" disabled>SIGUIENTE</button>
+						</div>		
+					</div>
+					<div id="pregunta5" style="display: none;">
+						<div class="cabeceraPreguntas">
+							<div class="numeroPregunta">
+								<span class="textoAzul">5</span>
+								<img src="img/circulosPreguntas.png" class="img-fluid">
+							</div>
+							<span class="pregunta textoBlanco">INGRESA TUS DATOS PARA PARTICIPAR</span>
+							<hr />
+						</div>
+						<div class="bodyPreguntas">
+							<form method="post" name="Form">
+								<input type="text" class="datosParticipar" id="nomParticipante" name="nombreParticipante" placeholder="NOMBRE" required>
+								<input type="text" class="datosParticipar" id="dirParticipante" name="direccionParticipante" placeholder="DIRECCIÓN" required>
+								<br>
+								<input type="text" class="datosParticipar" id="telParticipante" name="telefonoParticipante" placeholder="TELEFONO" required>
+								<input type="email" class="datosParticipar" id="emailParticipante" name="emailParticipante" placeholder="MAIL" onfocusout="destroyFullPage()" onfocus="var auxiliar = true;" required>
+								<span class="textoAmarillo" id="textoError" style="display: none;">Texto Test</span>						
+								<button type="button" id="btnTest5" class="boton btnBordeAmarillo textoAmarillo" pregunta="5">FINALIZAR</button>
+							</form>
+						</div>		
+					</div>
+					<div class="container resultadoTest resultadoLavador" style="display: none;">
+						<h2 class="mensajeTest1 textoBlanco">¡ERES TODO UN LAVADOR!</h2>
+						<hr />
+						<span class="mensajeTest2 textoBlanco">AÚN ESTÁS A TIEMPO</span>
+						<span class="mensajeTest2 textoBlanco">DE SUMARTE</span>
+						<span class="mensajeTest2 textoBlanco"> A LOS QUE COCINAN</span>
+						<div class="bajadaResultado">
+							<hr />
+							<span class="mensajeTest3 textoBlanco">Comparte tu resultado para finalizar tu participación</span>
+							<!--<div data-href="http://web.bbdodigital.cl/clientes/superpollo/cocinanvslavan/test.html" data-layout="button_count" data-size="small" style="display: contents;">
+								<a class="boton btnBordeAmarillo textoAmarillo" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fweb.bbdodigital.cl%2Fclientes%2Fsuperpollo%2Fcocinanvslavan%2Ftest.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">COMPARTIR</a>
+							</div>-->
+							<div data-href="https://www.superpollo.cl/cocinan-vs-lavan/" data-layout="button_count" data-size="small" style="display: contents;">
+								<a class="boton btnBordeAmarillo textoAmarillo" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.superpollo.cl%2Fcocinan-vs-lavan%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">COMPARTIR</a>
+							</div>
+							<a class="boton textoBlanco" id="btnGoRecetas" href="#section6">VER RECETAS</a>
+						</div>
+					</div>
+					<div class="container resultadoTest resultadoCocinero" style="display: none;">
+						<span class="mensajeTest1 textoBlanco">¡FELICITACIONES ERES DE LOS NUESTROS!</span>
+						<hr />
+						<span class="mensajeTest2 textoBlanco">NACISTE CON </span>
+						<span class="mensajeTest2 textoBlanco">EL SARTÉN</span>
+						<span class="mensajeTest2 textoBlanco">EN LA MANO</span>
+						<div class="bajadaResultado">
+							<hr />
+							<span class="mensajeTest1 textoBlanco">TUS PREPARACIONES PUEDEN SACAR APLAUSOS</span>
+							<span class="mensajeTest3 textoBlanco">Comparte tu resultado para finalizar tu participación</span>
+							<div data-href="https://www.superpollo.cl/cocinan-vs-lavan/" data-layout="button_count" data-size="small" style="display: contents;">
+								<a class="boton btnBordeAmarillo textoAmarillo" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.superpollo.cl%2Fcocinan-vs-lavan%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">COMPARTIR</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section s3">	
+				<div class="container">	
+					<div class="tituloSlide textoBlanco">								
+						COMERCIAL
+					</div>
+					<div class="divComercial">
+						<img src="img/placeholderCommercial.jpg" class="img-fluid" alt="" id="placeholderComercial">
+					</div>
+					<div class="seccionFooterComercial">
+						<div class="footer-comercial">
+							<img src="img/logo_SP.png" id="logoFooter" class="img-fluid" alt="">
+						</div>						 	
+					</div>
+				</div>	
+			</div>
+			<div class="section s4 ">
+				<div class="tituloSlide">								
+					GALERÍA
+				</div>				
+				<div class="slide"> 
+					<div class="contenedorGaleria row">
+						<div class="galeria col-12 col-md-6 col-lg-6 alegria1">
+						</div>
+						<div class="galeria col-12 col-md-6 col-lg-6 tristeza1">
+						</div>
+					</div>	
+				</div>
+				<div class="slide"> 
+					<div class="contenedorGaleria row">
+						<div class="galeria col-12 col-md-6 col-lg-6 alegria2">
+						</div>
+						<div class="galeria col-12 col-md-6 col-lg-6 tristeza2">
+						</div>
+					</div>	
+				</div>
+				<div class="slide"> 
+					<div class="contenedorGaleria row">
+						<div class="galeria col-12 col-md-6 col-lg-6 alegria3">
+						</div>
+						<div class="galeria col-12 col-md-6 col-lg-6 tristeza3">
+						</div>
+					</div>	
+				</div>							
+			</div>
+			<div class="section s5">					
+				<div class="container">					
+					<div class="slide">
+						<div class="row ventajas">
+							<div class="col-12 col-md-12 col-lg-6 descripcion-ventajas">									
+								<div class="tituloCabecera">
+									<span class="textoBlanco">VENTAJAS DE SER COCINERO</span>
+								</div>
+								<div class="bajada nombreVentaja">										
+									<span class="textoAmarillo" id="nombreRisas">RISAS</span>
+								</div>
+								<div class="contenidoVentajas">
+									<span class="textoBlanco">Acción involuntaria por el gusto de una preparación con Super Pollo, ya que los comensales no pueden contener su alegría por lo rico de tu receta. La que será reconocida y digna de un respeto único. Recibe todas las felicitaciones de la mesa, con Super Pollo en tu cocina.</span>
+								</div>
+							</div>
+							<div class="col-12 col-md-12 col-lg-6">
+								<div class="imagen-ventaja">										
+									<img src="img/ventajas3.jpg" class="img-fluid">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="row ventajas">
+							<div class="col-12 col-md-12 col-lg-6 descripcion-ventajas">									
+								<div class="tituloCabecera">
+									<span class="textoBlanco">VENTAJAS DE SER COCINERO</span>
+								</div>
+								<div class="bajada nombreVentaja">										
+									<span class="textoAmarillo" id="nombreAplausos">APLAUSOS</span>
+								</div>
+								<div class="contenidoVentajas">
+									<span class="textoBlanco">Es una instancia en donde los comensales prueban tu plato y lo único que pueden hacer es celegrar, creando una positiva señal de aprobación o reconomiento hacia tus habilidades gastronómicas. Llévate siempre los aplausos con Super Pollo</span>
+								</div>
+							</div>
+							<div class="col-12 col-md-12 col-lg-6">
+								<div class="imagen-ventaja">										
+									<img src="img/ventajas4.jpg" class="img-fluid">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="row ventajas">
+							<div class="col-12 col-md-12 col-lg-6 descripcion-ventajas">									
+								<div class="tituloCabecera">
+									<span class="textoBlanco">VENTAJAS DE SER COCINERO</span>
+								</div>
+								<div class="bajada nombreVentaja">										
+									<span class="textoAmarillo" id="nombreGloria">GLORIA</span>
+								</div>
+								<div class="contenidoVentajas">
+									<span class="textoBlanco">Cuando eres un cocinero y usas Super Pollo en tus preparaciones, la GLORIA llegará a tí. Es inevitable, por que ese rico sabor de tus platos, te dará una fama y reputación especial. Alcanza esa gloria gastronómica con	nuestros distintos productos. </span>
+								</div>
+							</div>
+							<div class="col-12 col-md-12 col-lg-6">
+								<div class="imagen-ventaja">										
+									<img src="img/ventajas5.jpg" class="img-fluid">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section s6">
+				<div class="slide">
+					<div class="row contenedorRecetas">
+						<div class="col-12 col-md-12 col-lg-6">									
+							<div class="tituloRecetas">
+								<span class="textoAzul">CÓMO CAMBIARSE A COCINERO</span>
+								<hr />
+							</div>
+							<div class="productosRecetas">
+								<span class="textoAzul">ROLLITO DE POLLO CON VERDURAS</span>
+								<img src="img/prod_pechugaDeshuesada.png" class="img-fluid">
+							</div>
+						</div>
+						<div class="col-12 col-md-12 col-lg-6">
+							<div class="row align-items-center fotoReceta">
+						    	<div class="col">
+						    	 	<div class="recetaContenedor">
+										<div class="contenedorBotonAprender">
+											<a href="https://www.superpollo.cl/recetas/rollito-pollo-con-verduras#!" target="_blank"><span class="boton textoAzul btnAmarillo btnBordeAmarillo btnAprender">APRENDER RECETA</span></a>
+										</div>
+										<img src="img/receta_pechugaDeshuesada.jpg" class="img-fluid">
+									</div>
+						    	</div>
+						  	</div>
+							<!--
+							<div class="recetaContenedor">
+								<div class="contenedorBotonAprender">
+									<a href="https://www.superpollo.cl/productos/pechugas#!" target="_blank"><span class="boton textoAzul btnAmarillo btnBordeAmarillo btnAprender">APRENDER RECETA</span></a>
+								</div>
+								<img src="img/receta_pechugaDeshuesada.jpg" class="img-fluid">
+							</div>
+							-->
+						</div>					
+					</div>
+				</div>
+				<div class="slide">
+					<div class="row contenedorRecetas">
+						<div class="col-12 col-md-12 col-lg-6">									
+							<div class="tituloRecetas">
+								<span class="textoAzul">CÓMO CAMBIARSE A COCINERO</span>
+								<hr />
+							</div>
+							<div class="productosRecetas">
+								<span class="textoAzul recetaLargo">FILETITOS DE POLLO CRUJIENTE Y PICANTE AL ESTILO TAILANDÉS</span>
+								<img src="img/prod_filetitos.png" class="img-fluid">
+							</div>
+						</div>
+						<div class="col-12 col-md-12 col-lg-6">
+							<div class="row align-items-center fotoReceta">
+						    	<div class="col">
+									<div class="recetaContenedor">
+										<div class="contenedorBotonAprender">
+											<a href="https://www.superpollo.cl/recetas/filetitos-de-pollo#!" target="_blank"><span class="boton textoAzul btnAmarillo btnBordeAmarillo btnAprender">APRENDER RECETA</span></a>
+										</div>
+										<img src="img/receta_filetitos.jpg" class="img-fluid">
+									</div>
+								</div>
+							</div>
+						</div>					
+					</div>
+				</div>
+				<div class="slide">
+					<div class="row contenedorRecetas">
+						<div class="col-12 col-md-12 col-lg-6">									
+							<div class="tituloRecetas">
+								<span class="textoAzul">CÓMO CAMBIARSE A COCINERO</span>
+								<hr />
+							</div>
+							<div class="productosRecetas">
+								<span class="textoAzul">TUTITOS DE POLLO CON SABOR BARBACOA</span>
+								<img src="img/prod_trozadoMarinado.png" class="img-fluid">
+							</div>
+						</div>
+						<div class="col-12 col-md-12 col-lg-6">
+							<div class="row align-items-center fotoReceta">
+						    	<div class="col">
+									<div class="recetaContenedor">
+										<div class="contenedorBotonAprender">
+											<a href="https://www.superpollo.cl/recetas/tutitos-sabor-barbacoa#!" target="_blank"><span class="boton textoAzul btnAmarillo btnBordeAmarillo btnAprender">APRENDER RECETA</span></a>
+										</div>
+										<img src="img/receta_trozadoMarinado.jpg" class="img-fluid">
+									</div>
+								</div>
+							</div>
+						</div>					
+					</div>
+				</div>
+				<div class="slide">
+					<div class="row contenedorRecetas">
+						<div class="col-12 col-md-12 col-lg-6">									
+							<div class="tituloRecetas">
+								<span class="textoAzul">CÓMO CAMBIARSE A COCINERO</span>
+								<hr />
+							</div>
+							<div class="productosRecetas">
+								<span class="textoAzul">POPCORN NUGGETS DE POLLO</span>
+								<img src="img/prod_popcornNugget.png" class="img-fluid">
+							</div>
+						</div>
+						<div class="col-12 col-md-12 col-lg-6">
+							<div class="row align-items-center fotoReceta">
+						    	<div class="col">
+									<div class="recetaContenedor">
+										<div class="contenedorBotonAprender">
+											<a href="https://www.superpollo.cl/recetas/popcorn-con-salsas#!" target="_blank"><span class="boton textoAzul btnAmarillo btnBordeAmarillo btnAprender">APRENDER RECETA</span></a>
+										</div>
+										<img src="img/receta_popcornNugget.jpg" class="img-fluid">
+									</div>
+								</div>
+							</div>
+						</div>					
+					</div>
+				</div>
+			</div>
+				
+
+		</div>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/fullpage.js"></script>
+	    <script src="js/util.js"></script>
+	    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0"></script>
+
+	</body>
+</html>
