@@ -8,6 +8,22 @@
 .s1 .logosp {
   max-width: 110%; }
 
+.block-redes a{
+  transition: .3s;
+}
+.block-redes a:hover{
+  opacity: 0.4;
+}
+.pollo{
+  max-width: 60%;
+}
+
+.tituloRecetas hr{	
+  width: 100%;
+  margin:10px  auto;
+  max-width: 480px;}
+
+
 @media screen and (min-width: 768px) {
   .s1 .logosp {
     max-width: 100%; }
@@ -15,7 +31,14 @@
     font-size: 22px;
     line-height: 1.5em !important; }
   .s1 .frasehome {
-    max-width: 70%; } }
+    max-width: 70%; } 
+  
+    .pollo{
+      max-width: 100%;
+    }
+      
+
+  }
 
 .block-redes {
   width: 100%;
@@ -55,22 +78,56 @@
       max-width: 100%; }
   .seccionFooterComercial {
     width: 100% !important;
-    max-width: inherit !important;
     right: inherit !important;
     bottom: 45px; }
     .seccionFooterComercial .footer-comercial {
       position: relative;
       height: 91px;
       width: 100%;
-      max-width: 1140px;
       margin: 0 auto; }
     .seccionFooterComercial img {
-      position: absolute;
-      right: 0px;
-      bottom: 25px;
-      margin-right: inherit; } }
+      right: 35px;
+      bottom: 5px;
+      margin-right: inherit; } 
+      .tituloRecetas{
+        margin-top: 200px;
+      } 
+    .tituloRecetas hr{	
+        width: 100%;
+        max-width: 500px;
+        margin:10px 0px 0px 0px;
+      }
+      .productosRecetas span{
+        font-size: 1.7em;
+      }
+
+      #placeholderComercial{
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+  }
 
 @media screen and (min-width: 1200px) {
+  .tituloRecetas{
+    margin-top: 200px;
+  } 
   .cabecera .navbar-nav li a {
     line-height: 35px !important;
-    font-size: 20px !important; } }
+    font-size: 20px !important; } 
+  
+}
+@media screen and (min-width: 1225px) {
+  .tituloRecetas{
+    font-size: 0.8rem;
+    margin-top: 0px;
+  } 
+
+}
+
+@media screen and (min-width: 1570px) {
+  .tituloRecetas{
+    margin-top: 100px;
+  } 
+
+}

@@ -122,6 +122,7 @@ body{
 	width: 100%;
 	max-width: 400px;
 	margin: 0.5em 0px;
+	transition: .3s;
 }
 
 .boton:disabled{
@@ -470,7 +471,7 @@ body{
     display: block;
     margin-top: 300px;
     margin-left: 25px;
-	font-size: 1.3em;
+	font-size: 1.2em;
 	line-height: 1.3em;
 }
 
@@ -481,13 +482,15 @@ body{
 .tituloRecetas hr{	
     border-color: #01155d;
     padding: 10px;
-    width: 85%;
-    border-width: 4px;
+	width: 100%;
+	margin:5px;
+    border-width: 2px;
     margin-left: 0px;
 }
 
 .tituloRecetas span {
-    font-size: 4em;
+	font-size: 4em;
+	text-align: center;
     font-weight: bold;
 }
 
@@ -496,7 +499,7 @@ body{
 }
 
 .productosRecetas{
-	margin: 0 30px;
+	/*margin: 0 30px;*/
 }
 
 .productosRecetas span{
@@ -513,13 +516,26 @@ body{
 }
 
 .btnAprender{
-    position: absolute;
-    font-weight: bold;
+	position: absolute;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
     z-index: 11;
     bottom: 2%;
     right: 4%;
-    padding: 15px 50px;
+	padding: 15px 50px;
+	transition: .3s;
+	max-width: 270px;
+	font-size: 1em;
 }
+
+.btnAprender:hover{
+	background-color: #01155d;
+	color: #f8cc00;
+	border-color:#01155d;
+}
+
+
 
 /** GALERIA FONDOS**/
 .alegria1{
@@ -680,7 +696,7 @@ body{
 
 @media screen and (max-width: 1224px) {
 	.tituloRecetas span {
-	    font-size: 3.4em;
+	    font-size: 2.6em;
 	    font-weight: bold;
 	}
 
@@ -957,7 +973,7 @@ body{
 
 	.tituloRecetas span {
 	    display: block;
-	    font-size: 1.5em;
+	    font-size: 1.8em;
 	    font-weight: bold;
 	}
 
@@ -971,7 +987,7 @@ body{
 
 	.productosRecetas span {
 	    display: block;
-	    font-size: 1.5em;
+	    font-size: 1.3em;
 	    font-weight: bold;
     	text-align: center;
 	}
@@ -994,7 +1010,7 @@ body{
 	    -webkit-transform: translateX(-50%);
 	    transform: translateX(-50%);
 	    width: 150px;
-	    font-size: 0.8em;
+	    font-size: 0.6em;
 	}
 
 	.fotoReceta {
