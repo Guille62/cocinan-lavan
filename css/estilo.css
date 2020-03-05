@@ -93,6 +93,7 @@ body{
 	max-width: 20%;
 	position: relative;
 	float: right;
+	margin-bottom: 25px;
 	margin-right: 25px;
 }
 
@@ -172,6 +173,16 @@ body{
 	border-color: #FFF;
 	border-width: 2px;
     margin-left: 80px;
+}
+
+#btnGoRecetas:hover{
+	text-decoration: none;
+	transition: .3s;
+	color: #01155d;
+	border-color: #FFF;
+	background: #FFF;
+	border-width: 2px;
+    /*margin-left: 80px;*/
 }
 
 .tituloSlide{
@@ -260,7 +271,7 @@ body{
 .cabeceraPreguntas hr{	
     border-color: #FFF;
     padding: 10px;
-    width: 80%;
+    width: 70%;
 }
 
 .bodyPreguntas input {
@@ -451,7 +462,7 @@ body{
 
 #nombreAplausos{
 	margin-right: -400px;
-    font-size: 10em;
+
 }
 
 #nombreGloria{
@@ -469,10 +480,10 @@ body{
 
 .contenidoVentajas span {
     display: block;
-    margin-top: 300px;
+    margin-top: 260px;
     margin-left: 25px;
 	font-size: 1.2em;
-	line-height: 1.3em;
+	line-height: 1em;
 }
 
 .contenedorRecetas{
@@ -490,6 +501,7 @@ body{
 
 .tituloRecetas span {
 	font-size: 4em;
+	line-height: 0.9em;
 	text-align: center;
     font-weight: bold;
 }
@@ -504,7 +516,7 @@ body{
 
 .productosRecetas span{
     display: block;
-    font-size: 2em;
+    font-size: 1.7em;
     font-weight: bold;
 }
 
@@ -522,7 +534,8 @@ body{
 	text-align: center;
     z-index: 11;
     bottom: 2%;
-    right: 4%;
+    right: 0px;
+	margin-right: 30px;
 	padding: 15px 50px;
 	transition: .3s;
 	max-width: 270px;
@@ -541,13 +554,13 @@ body{
 .alegria1{
 	background: url('../img/fel1.jpg');
 	background-position: center;
-    background-size: cover;
+    /*background-size: cover;*/
 }
 
 .tristeza1{
 	background: url('../img/trist1.jpg');
 	background-position: center;
-    background-size: cover;
+    /*background-size: cover;*/
 }
 
 .alegria2{
@@ -720,9 +733,6 @@ body{
     	font-size: 10em;
 	}
 
-	#nombreAplausos {
-	    font-size: 8em;
-	}
 
 	.divComercial video {
 	    margin: 0 auto;
@@ -835,7 +845,7 @@ body{
 
 	.bajada {
 	    text-align: center;
-	    margin-bottom: 100px;
+
 	}
 
 	.seccionFooter {
@@ -940,40 +950,37 @@ body{
 	}
 
 	.bajada {
-	    margin-bottom: 20px;
 	    display: block;
-	    padding: 10px 0;
+		margin-top: -22px;
 	}
 
 	.contenidoVentajas span {
         display: block;
-	    margin-top: 0px;
-	    font-size: 1em;
-	    text-align: justify;
+	    margin-top: 20px;
+	    font-size: 0.7em;
+	    text-align: center;
 	    margin-left: 0px;
 	}
 
 	.imagen-ventaja {
 	    text-align: center;
-	    margin: 25px 0px;
+		margin: 20px 0px 0px 0px;
 	}
 
-	.imagen-ventaja img {
-	    max-height: 250px;
-	}
+
 
 	.nombreVentaja span {
 	    display: block;
 	    position: inherit;
 	    margin-left: 0;
 	    margin-right: 0 !important;
-	    font-size: 2.5em !important;
+	    font-size: 2.8em ;
 	    margin-top: 0;
 	}
 
 	.tituloRecetas span {
 	    display: block;
-	    font-size: 1.8em;
+	    font-size: 1.7em;
 	    font-weight: bold;
 	}
 
@@ -987,7 +994,7 @@ body{
 
 	.productosRecetas span {
 	    display: block;
-	    font-size: 1.3em;
+	    font-size: 1em;
 	    font-weight: bold;
     	text-align: center;
 	}
@@ -999,7 +1006,7 @@ body{
 
 	.recetaContenedor img{
 		display: block;
-	    max-height: 200px;
+		max-height: 310px;
 	    margin: 0 auto;
 	}
 
@@ -1016,6 +1023,7 @@ body{
 	.fotoReceta {
 	    height: auto;
 	}
+	
 }
 
 @media screen and (max-width: 465px) {
@@ -1025,11 +1033,11 @@ body{
 	}
 
 	.descubreTexto span {
-	    font-size: 1.25em;
+		font-size: 1.8em;
 	}
 
 	.tituloCabecera span {
-	    font-size: 1.5em;
+	    font-size: 2.5em;
 	}
 
 	.recetaLargo{
@@ -1049,8 +1057,8 @@ body{
 	    width: 75%;
 	}
 
-	.imagen-ventaja img {
+	/*.imagen-ventaja img {
 	    max-height: 200px;
-	}
+	}*/
 }
 

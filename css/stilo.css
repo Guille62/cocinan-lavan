@@ -8,22 +8,25 @@
 .s1 .logosp {
   max-width: 110%; }
 
-.block-redes a{
-  transition: .3s;
-}
-.block-redes a:hover{
-  opacity: 0.4;
-}
-.pollo{
-  max-width: 60%;
+.tituloCabecera{
+  text-align: center;
 }
 
-.tituloRecetas hr{	
+.block-redes {
   width: 100%;
-  margin:10px  auto;
-  max-width: 480px;}
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto;
+  display: block; }
+.block-redes a {
+  text-align: center;
+  margin: 5px; }
+.block-redes a img {
+    max-width: 17%; }
 
-
+    .block-cambia{
+      width: 100%;
+    }      
 @media screen and (min-width: 768px) {
   .s1 .logosp {
     max-width: 100%; }
@@ -32,32 +35,41 @@
     line-height: 1.5em !important; }
   .s1 .frasehome {
     max-width: 70%; } 
-  
-    .pollo{
-      max-width: 100%;
-    }
-      
-
+  .logo-desktop{
+    z-index: 999999999;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+  }
+  .tituloCabecera span{
+    line-height: 0.8em;
+    font-size: 4em;;
+  }
+  .contenidoVentajas span{
+    margin-left: 0px!important;
+    font-size: 1.1em;
+  }
+  .bajada{
+    margin-top: 0px;
   }
 
-.block-redes {
-  width: 100%;
-  max-width: 198px;
-  margin: auto;
-  display: block; }
-  .block-redes a {
-    text-align: center;
-    margin: 5px; }
-    .block-redes a img {
-      max-width: 17%; }
+
+}
+
+
 
 @media screen and (min-width: 998px) {
+  .contenidoVentajas span{line-height: 1.3em;}
   .cabecera {
     position: fixed;
     width: 100%;
     z-index: 9;
     padding: 17px; }
-    .cabecera .navbar-nav li a {
+  .tituloCabecera{text-align: left;}
+  .tituloCabecera span{font-size: 5em !important;}  
+  .cabecera .navbar-nav li a {
       line-height: inherit !important;
       font-size: 15px !important; }
   .s1 .participa {
@@ -69,65 +81,113 @@
       line-height: inherit; }
   .s1 .block-redes {
     max-width: 260px;
-    padding: 35px 0px;
     position: absolute;
     right: 0px;
     margin-right: 25px;
     margin-bottom: 25px; }
-    .s1 .block-redes img {
+  .s1 .block-redes img {
       max-width: 100%; }
   .seccionFooterComercial {
     width: 100% !important;
+    max-width: inherit !important;
     right: inherit !important;
     bottom: 45px; }
-    .seccionFooterComercial .footer-comercial {
+  .seccionFooterComercial .footer-comercial {
       position: relative;
       height: 91px;
       width: 100%;
+      max-width: 1140px;
       margin: 0 auto; }
     .seccionFooterComercial img {
-      right: 35px;
-      bottom: 5px;
+      position: absolute;
+      right: 0px;
+      bottom: 25px;
       margin-right: inherit; } 
-      .tituloRecetas{
-        margin-top: 200px;
-      } 
-    .tituloRecetas hr{	
-        width: 100%;
-        max-width: 500px;
-        margin:10px 0px 0px 0px;
-      }
-      .productosRecetas span{
-        font-size: 1.7em;
-      }
+    .nombreVentaja #nombreAplausos {
+      font-size: 9.5em;
+    } 
+    .productosRecetas span.textoAzul{
+      margin-top: -11px !important;
+    }
+    /* MENU AZUL */
 
-      #placeholderComercial{
-        top:50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-  }
+    .menu-dos{
+      color: #01155d !important;
+    }
+    .cambialeft{max-width: 500px;margin-right: auto;margin-left: auto;}
+    .cambiaright{
+      max-width: 650px;
+      margin-left: auto;
+    }
+    .descubreTexto span{
+      margin-top: -11px;
+    }
+    
+}
 
 @media screen and (min-width: 1200px) {
-  .tituloRecetas{
-    margin-top: 200px;
-  } 
   .cabecera .navbar-nav li a {
     line-height: 35px !important;
     font-size: 20px !important; } 
-  
-}
-@media screen and (min-width: 1225px) {
-  .tituloRecetas{
-    font-size: 0.8rem;
-    margin-top: 0px;
-  } 
+  }
 
-}
+@media screen and (min-width: 320px) and (max-width:768px){
+  .boton{
+    max-width: 275px;
+  }
+  .footer-comercial img{
+    margin-bottom: 14px !important;
+    margin-right: 12px !important;
+  }
+ 
+}  
 
-@media screen and (min-width: 1570px) {
-  .tituloRecetas{
-    margin-top: 100px;
-  } 
-
+@media screen and (min-width: 768px) and  (max-width:980px) {
+  .ventajas-img{
+    max-width: 80%;
+  }
+  .txt-corto{
+    font-size: 6.5em !important;
+    margin-top: -60px !important;
+  }
+  #nombreAplausos{
+    font-size: 5em;
+    margin-top: -50px !important;
+  }
+  .contenidoVentajas{
+    max-width: 400px;
+    margin: auto;
+  }
+  .tituloRecetas span {
+    font-size: 3.3em !important;
+    line-height: 0.9em!important;
+  }
+  .tituloRecetas hr{
+    max-width: 70%;
+    margin:0.5em auto;
+  }
+  .productosRecetas span{
+    font-size: 1.3em!important;
+    margin:0.5em auto;
+  }
+  .productosRecetas img{
+    max-height: 215px !important;
+  }
+  .recetaContenedor img{
+    max-height: 485px !important;
+  }
+  .btnAprender{
+    width: 332px !important;
+    font-size: 1.2em !important;
+  }
+  .descubreTexto span {
+    font-size: 2.9em!important;
+  }
+  .respuestas {
+    width: 100% !important;
+    max-width: 380px !important;
+    padding: 1em !important;}
+  .btn-ipad{
+    max-width: 365px !important;
+  }
 }

@@ -139,6 +139,7 @@ function inicializarFullPage(){
 		css3: true,
 		autoScrolling: true, // AUTO SCROLL
 		navigation: true, //NAVEGADORES LATERALES,
+		scrollHorizontally: true,
 		//normalScrollElements: '#pregunta5',
 		responsiveHeight: 480,
 		navigationPosition: 'left',
@@ -163,6 +164,12 @@ function inicializarFullPage(){
 			}else if(destination.index == 2){
 				$('#comercialFinal').trigger('play');
 			}
+			if(destination.index == 5){
+				$("#MenuAzul li a").addClass("menu-dos");
+			}else if(origin.index == 5 && direction == 'up'){
+				$("#MenuAzul li a").removeClass("menu-dos");
+			}
+
 		}/*,
 		onLeave: function(origin, destination, direction){
 			if(origin.index == 1 && direction == 'up'){
